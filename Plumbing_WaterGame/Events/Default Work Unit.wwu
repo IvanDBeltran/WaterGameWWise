@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{13AA6350-1E5B-4303-B1AA-AD1E655EB1F4}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{13AA6350-1E5B-4303-B1AA-AD1E655EB1F4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Music" ID="{D66D2319-F7ED-4318-B47B-4E2D3DE41719}">
+					<ChildrenList>
+						<Action Name="" ID="{C3DD5A6B-8532-494F-AA65-A25689B49463}" ShortID="369777977">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicLevels" ID="{107B3434-DAB5-4E3F-987A-5499FE368A79}" WorkUnitID="{0B1444DC-017E-4AB0-BD75-D477A5C1EAC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{03E89F38-B644-48E6-A7ED-64227B885933}" ShortID="887118216">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicLevels" ID="{107B3434-DAB5-4E3F-987A-5499FE368A79}" WorkUnitID="{0B1444DC-017E-4AB0-BD75-D477A5C1EAC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Water" ID="{42C69516-EB76-47B5-899C-27CE3A20C38B}">
+					<ChildrenList>
+						<Action Name="" ID="{EEF63A84-9A7D-45A6-8685-8261C849733E}" ShortID="32388072">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Water" ID="{E1E6477F-D7B6-4AC4-9A60-F35892E82EE4}" WorkUnitID="{B2DDAB02-BA39-4831-AF05-7F9D31141A38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayerIsDead" ID="{9660E9E7-C17A-4F96-9322-F58E47E60363}">
+					<ChildrenList>
+						<Action Name="" ID="{E2B0A4B1-E131-4266-A27D-1C8D97C0063C}" ShortID="813335897">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Water" ID="{E1E6477F-D7B6-4AC4-9A60-F35892E82EE4}" WorkUnitID="{B2DDAB02-BA39-4831-AF05-7F9D31141A38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hit_Obstacle" ID="{EE6488E2-A0BF-47A5-A492-9203F38B9F45}">
+					<ChildrenList>
+						<Action Name="" ID="{E1AC82F1-6735-4A2E-83BD-4E20DEF9AECB}" ShortID="723382760">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hit_Obstacle" ID="{4205821B-CB64-4216-9D39-17C3CFD05453}" WorkUnitID="{B2DDAB02-BA39-4831-AF05-7F9D31141A38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopMusic" ID="{9019F342-BA4E-4BB7-BDE6-4A8072E4F46B}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

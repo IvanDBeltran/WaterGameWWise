@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EEDF4BC1-90D3-4491-A4E7-FFC9FB9CFAE1}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{EEDF4BC1-90D3-4491-A4E7-FFC9FB9CFAE1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Music" ID="{E3B460C4-B9A3-480F-B5C3-33CBEDFB7922}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="General" ID="{40CA8C8E-A47C-43F2-8A92-5027B36C4E58}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{D66D2319-F7ED-4318-B47B-4E2D3DE41719}" WorkUnitID="{13AA6350-1E5B-4303-B1AA-AD1E655EB1F4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Hit_Obstacle" ID="{EE6488E2-A0BF-47A5-A492-9203F38B9F45}" WorkUnitID="{13AA6350-1E5B-4303-B1AA-AD1E655EB1F4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Water" ID="{42C69516-EB76-47B5-899C-27CE3A20C38B}" WorkUnitID="{13AA6350-1E5B-4303-B1AA-AD1E655EB1F4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerIsDead" ID="{9660E9E7-C17A-4F96-9322-F58E47E60363}" WorkUnitID="{13AA6350-1E5B-4303-B1AA-AD1E655EB1F4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

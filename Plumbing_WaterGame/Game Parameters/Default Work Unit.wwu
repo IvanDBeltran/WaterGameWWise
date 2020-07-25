@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9440710C-3E3E-46E5-954E-F58C88DD01C9}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{9440710C-3E3E-46E5-954E-F58C88DD01C9}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="AmountOfWater" ID="{8CABF003-4DCD-41F0-8AE3-FFBEEC3D24CC}">
+					<PropertyList>
+						<Property Name="Max" Type="Real64" Value="50"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="WaterSpeed" ID="{5FC4CC19-D3B0-4C3B-804A-229409E6A566}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="5"/>
+						<Property Name="Max" Type="Real64" Value="9"/>
+						<Property Name="Min" Type="Real64" Value="3"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

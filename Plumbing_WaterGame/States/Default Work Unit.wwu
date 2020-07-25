@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{15BDC09F-8A5D-40EA-99D7-168386E8118F}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{15BDC09F-8A5D-40EA-99D7-168386E8118F}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="PlayerStatus" ID="{EF86E1D9-EE2D-4934-BB74-DD1BBB55B20B}">
+					<ChildrenList>
+						<State Name="None" ID="{426F4A80-7174-46C2-8FCF-D25EDCAB7AFA}"/>
+						<State Name="Alive" ID="{869F4E27-2297-43D0-9754-75BD70788E09}"/>
+						<State Name="Dead" ID="{9C314D16-0C49-4638-A461-8FA3EECC35C2}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="TimeOfDay" ID="{33AA0349-4C7F-4657-9EAC-148B652C4FE2}">
+					<ChildrenList>
+						<State Name="None" ID="{2E9CD1B2-4D26-43F6-A26C-2512CA84B705}"/>
+						<State Name="DayTime" ID="{9F51A0F3-2D08-4E34-BEEA-E17AA36AB810}"/>
+						<State Name="NightTime" ID="{6BB28AF0-099F-40B2-956A-C253AA5EAFDC}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

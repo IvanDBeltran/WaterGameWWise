@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{79B53A2D-AE43-4DBF-A827-738B9DBA3CD7}" SchemaVersion="97">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{79B53A2D-AE43-4DBF-A827-738B9DBA3CD7}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="New Mixing Session" ID="{8BD5E708-1A9A-4ED1-8207-9C13C13BFD45}">
+					<ObjectList>
+						<ObjectRef Name="Water" ID="{E1E6477F-D7B6-4AC4-9A60-F35892E82EE4}" WorkUnitID="{B2DDAB02-BA39-4831-AF05-7F9D31141A38}"/>
+						<ObjectRef Name="DayTime2" ID="{2FA95040-9744-4ADE-874E-5405B7631AE0}" WorkUnitID="{0B1444DC-017E-4AB0-BD75-D477A5C1EAC1}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>
